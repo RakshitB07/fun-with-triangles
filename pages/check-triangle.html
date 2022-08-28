@@ -10,21 +10,26 @@
 </head>
 
 <body>
+    <nav class="nav-pills">
+        <a href="/pages/check-triangle.html">Is it a Triangle?</a>
+        <a href="/pages/quiz.html">Triangle Quiz</a>
+        <a href="/pages/hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="/pages/triangle-area.html">Calculate Area</a>
+    </nav>
+
     <h1>Is it a Triangle?</h1>
-    <label for="angle1">Angle-1</label>
-    <input type="number" class="angle-input">
-    <label for="angle2">Angle-2</label>
-    <input type="number" class="angle-input">
-    <label for="angle3">Angle-3</label>
-    <input type="number" class="angle-input">
+    <div class="styling">
+        <label for="angle1">Angle-1:</label>
+        <input placeholder="Input.." type="number" class="angle-input">
+        <label for="angle2">Angle-2:</label>
+        <input placeholder="Input.." type="number" class="angle-input">
+        <label for="angle3">Angle-3:</label>
+        <input placeholder="Input.." type="number" class="angle-input">
+    </div>
+
     <button id="check-triangle-btn">Check</button>
+
     <div id="output"></div>
-
-
-
-
-
-
 
     <script src="/scripts/check-triangle.js"></script>
 

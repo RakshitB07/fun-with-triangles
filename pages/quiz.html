@@ -10,22 +10,45 @@
 </head>
 
 <body>
+    <nav class="nav-pills">
+        <a href="/pages/check-triangle.html">Is it a Triangle?</a>
+        <a href="/pages/quiz.html">Triangle Quiz</a>
+        <a href="/pages/hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="/pages/triangle-area.html">Calculate Area</a>
+    </nav>
+
     <h1>Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45° and
+            <p>➔ What is the third angle for the triangle where angle1 = 45° and
                 angle2 = 45°?</p>
             <label><input name="question1" value="45°" type="radio">45°</label>
             <label><input name="question1" value="60°" type="radio">60°</label>
             <label><input name="question1" value="90°" type="radio">90°</label>
         </div>
         <div class="question-container">
-            <p>If a triangle has an angle of 90°, What is it called?</p>
+            <p>➔ If a triangle has an angle of 90°, What is it called?</p>
             <label><input name="question2" value="Acute" type="radio">Acute</label>
             <label><input name="question2" value="Obtuse" type="radio">Obtuse</label>
             <label><input name="question2" value="Right angle" type="radio">Right angle</label>
         </div>
+        <div class="question-container">
+            <p>➔ If a triangle has angles 135°, 15°, 30°. Is it an obtuse triangle? </p>
+            <label><input type="radio" name="question3" value="yes" />yes</label>
+            <label><input type="radio" name="question3" value="no" />no</label>
+        </div>
 
+        <div class="question-container">
+            <p>➔ A triangle has angles 60°, 60°, 60°. Is it an equilateral triangle? </p>
+            <label><input type="radio" name="question4" value="yes" />yes</label>
+            <label><input type="radio" name="question4" value="no" />no</label>
+        </div>
+        <div class="question-container">
+            <p>➔ The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+            <label><input type="radio" name="question5" value="15cm" />15cm</label>
+            <label><input type="radio" name="question5" value="45cm" />45cm</label>
+            <label><input type="radio" name="question5" value="5cm" />5cm</label>
+        </div>
     </form>
     <button id="submit-ans-btn">Submit Answer</button>
     <div id="output"></div>
