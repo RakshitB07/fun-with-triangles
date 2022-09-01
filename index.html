@@ -20,11 +20,11 @@
     <h1>Is it a Triangle?</h1>
     <div class="styling">
         <label for="angle1">Angle-1:</label>
-        <input placeholder="Input.." type="number" class="angle-input">
+        <input placeholder="Input.." type="number" class="angle-input" min=0 oninput="validity.valid||(value='');">
         <label for="angle2">Angle-2:</label>
-        <input placeholder="Input.." type="number" class="angle-input">
+        <input placeholder="Input.." type="number" class="angle-input" min=0 oninput="validity.valid||(value='');">
         <label for="angle3">Angle-3:</label>
-        <input placeholder="Input.." type="number" class="angle-input">
+        <input placeholder="Input.." type="number" class="angle-input" min=0 oninput="validity.valid||(value='');">
     </div>
 
     <button id="check-triangle-btn">Check</button>

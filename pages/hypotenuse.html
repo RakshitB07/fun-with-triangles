@@ -21,9 +21,9 @@
 
     <div class="styling">
         <label>a = </label>
-        <input type="number" class="side-input">
+        <input type="number" class="side-input" min=0 oninput="validity.valid||(value='');">
         <label>b = </label>
-        <input type="number" class="side-input">
+        <input type="number" class="side-input" min=0 oninput="validity.valid||(value='');">
     </div>
 
     <button id="check-hypo-btn">Calculate</button>

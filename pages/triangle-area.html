@@ -21,9 +21,9 @@
 
     <div class="styling">
         <label class="label">Base= </label>
-        <input type="number" class="length-input" />
+        <input type="number" class="length-input" min=0 oninput="validity.valid||(value='');" />
         <label class="label">Height= </label>
-        <input type="number" class="length-input" />
+        <input type="number" class="length-input" min=0 oninput="validity.valid||(value='');" />
     </div>
 
     <button id="calculate-btn">Calculate area</button>
